@@ -47,8 +47,7 @@ const DashboardHeader = () => {
             Inventory dashboard
           </p>
           <h1 className="text-2xl font-semibold text-white">
-            {/* Hello, {userName || 'User'} */}
-            Hello, {'User'}
+            Hello, {userName || 'User'}
           </h1>
         </div>
       </div>
